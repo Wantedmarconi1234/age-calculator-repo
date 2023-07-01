@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form  class="card">
+        <div class="form-group">
+            <div class="age-group">
+                <label for="day" id="day-label">day</label>
+                <input type="number" id="day" name="day" placeholder="DD">
+                <small class="day-error"></small>
+            </div>
+            <div class="month-group">
+                <label for="month" id="month-label">month</label>
+                <input type="number" id="month" name="month" placeholder="MM">
+                <small class="month-error"></small>
+            </div>
+            <div class="year-group">
+                <label for="year" id="year-label">year</label>
+                <input type="number" id="year" name="year" placeholder="YYYY">
+                <small class="year-error"></small>
+            </div>
+        </div>
+        <div class="submit-button">
+            <hr>
+            <img src="./age-calculator-app-main/assets/images/icon-arrow.svg" alt="submit-btn">
+        </div>
+        <div class="results-group">
+            <h1><span class="years-results">- -</span>years</h1>
+            <h1><span class="months-results">- -</span>months</h1>
+            <h1><span class="days-results">- -</span>days</h1>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
